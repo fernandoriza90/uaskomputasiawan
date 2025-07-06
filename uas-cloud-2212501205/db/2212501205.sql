@@ -1,0 +1,10 @@
+CREATE DATABASE data2212501205;
+
+USE data2212501205;
+
+CREATE TABLE datamahasiswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nim VARCHAR(20),
+    nama VARCHAR(100),
+    email VARCHAR(100)
+);
